@@ -1,0 +1,97 @@
+/* Navbar Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparan hitam */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffeb3b;
+}
+
+/* Body Styles */
+body {
+    background: url('p.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    color: #fff;
+  margin-top: 80px; /* Sesuaikan margin atas dengan tinggi navbar */
+  background-color: #f0f0f0; /* Warna latar belakang halaman */
+  font-family: 'Nunito', sans-serif;
+}
+
+/* About Section Styles */
+.about {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparan hitam */
+  border-radius: 10px; /* Tambahkan border-radius untuk sudut yang lebih lembut */
+  margin: 20px; /* Tambahkan margin agar tidak terlalu dekat dengan tepi layar */
+}
+
+.about-content {
+  max-width: 800px; /* Tentukan lebar maksimum konten untuk memastikan kejelasan */
+  margin: 0 auto; /* Pusatkan konten horizontal */
+  padding: 20px; /* Berikan ruang di sekitar konten */
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff; /* Warna teks putih untuk kontras */
+}
+
+.about p {
+  color: #ccc; /* Warna teks abu-abu untuk kontras */
+}
+
+/* Footer Styles */
+footer {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparan hitam untuk footer */
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

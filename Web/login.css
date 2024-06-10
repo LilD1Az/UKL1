@@ -1,0 +1,85 @@
+/* style2.css */
+
+body {
+   font-family: 'Poppins', sans-serif;
+   background: url('background.jpg') no-repeat center center fixed;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   color: #fff;
+}
+
+.container {
+   background: rgba(0, 123, 255, 0.7); /* Semi-transparent blue background */
+   border-radius: 10px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+   padding: 40px;
+   max-width: 400px;
+   width: 100%;
+   text-align: center;
+}
+
+.title {
+   font-size: 2.5em;
+   margin-bottom: 20px;
+   color: #fff; /* Change to white for better contrast */
+   font-weight: 500;
+}
+
+.form input[type="email"],
+.form input[type="text"],
+.form input[type="password"] {
+   width: 100%;
+   padding: 15px;
+   margin: 10px 0;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   box-sizing: border-box;
+   font-size: 1em;
+   background: #f9f9f9;
+   transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form input[type="text"]:focus,
+.form input[type="password"]:focus {
+   border-color: #1255c7;
+   box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+   outline: none;
+}
+
+.button {
+   width: 100%;
+   padding: 15px;
+   border: none;
+   border-radius: 5px;
+   background: linear-gradient(to right, #6a11cb, #2575fc);
+   color: #fff;
+   font-size: 1em;
+   cursor: pointer;
+   transition: background 0.3s, transform 0.3s;
+   font-weight: 500;
+}
+
+.button:hover {
+   background: linear-gradient(to right, #2575fc, #6a11cb);
+   transform: scale(1.05);
+}
+
+.forgot {
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.forgot a {
+   color: #000000;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+.forgot a:hover {
+   text-decoration: underline;
+}
